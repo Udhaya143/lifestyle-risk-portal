@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lifestyle Risk Portal</title>
+</head>
+
+<body>
+    <h1>Enter Your Health Data</h1>
+    <form action="result.php" method="post">
+        <label>BMI:</label>
+        <input type="text" name="bmi" required><br><br>
+
+        <label>Blood Pressure:</label>
+        <input type="text" name="bp" required><br><br>
+
+        <label>Smoking (0 = No, 1 = Yes):</label>
+        <input type="number" name="smoking" required><br><br>
+
+        <label>Exercise (times per week):</label>
+        <input type="number" name="exercise" required><br><br>
+
+        <label>Diet Score (1–5):</label>
+        <input type="number" name="diet" required><br><br>
+
+        <input type="submit" value="Predict Risk">
+    </form>
+</body>
+
+</html>
